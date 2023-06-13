@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #FFD700;
+	
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 30px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+ul#book-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#book-list li {
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+ul#book-list li img {
+	width: 150px;
+	height: 200px;
+}
+
+ul#book-list li h3 {
+	margin-top: 0;
+}
+
+ul#book-list li p.price {
+	color: green;
+	font-weight: bold;
+}
+
+button.buy-button {
+	background-color: green;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	line-height: 0px;
+}
+
+.about-us {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.about-us ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}.about-us li {
+    margin: 0 20px 40px;
+    max-width: 150px;
+    }
+    
+    .about-us img {
+    max-width: 100%;
+    height: auto;
+    }
+
